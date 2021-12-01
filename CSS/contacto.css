@@ -1,0 +1,93 @@
+.body {
+    background-color:rgb(48, 46, 46);
+    font-family: "roboto",sans-serif;
+    
+
+}
+.imgPpal{
+    width: 400px;
+    height: 200px;
+    margin-left: 34%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 4px solid rgb(201, 194, 194);
+}
+.menu {
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 18%;
+    font-size:x-large;
+    text-decoration: none;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: 4px solid rgb(201, 194, 194);
+    border-radius: .8rem;
+    justify-content: center;
+    width: 50rem;
+    
+    
+}
+.menuInfo{
+    text-decoration: none;
+    color:rgb(201, 194, 194);
+    background-color: black;
+    transition: background-color .5s;
+    border-radius: .5rem;
+    padding: 3%;
+    
+}
+.menuInfo:hover{
+    background-color: tomato;
+    
+}
+.h1{
+    text-align: center;
+    color:rgb(201, 194, 194);
+    text-decoration: underline;
+}
+.redes{
+    border-radius: 16px;
+    border: 2px solid rgb(201, 194, 194);
+    margin-top: 0%;
+    margin-right: 1%;
+    width:50px;
+    height:50px;
+}
+.h2{
+    text-align: left;
+    color:rgb(201, 194, 194);
+    text-decoration: underline;
+    margin-top: 2%;
+}
+.h3{
+    text-align: center;
+    color:rgb(201, 194, 194);
+}
+.input{
+    border-radius: 16px;
+    border: 2px solid rgb(201, 194, 194);
+    padding: 1% 9% 1% 1%;
+}
+/* .botonGreen{
+    border: 2px solid rgb(201, 194, 194);
+    cursor: pointer;
+    border-radius:.8rem;
+    height: 2.5rem;
+    width: 5rem;
+    color: black;
+    background: rgb(1, 85, 1);
+    font-weight: bold;
+ 
+} */
+/* .botonYellow{
+    border: 2px solid rgb(201, 194, 194);
+    cursor: pointer;
+    border-radius:.8rem;
+    height: 2.5rem;
+    width: 5rem;
+    color: black;
+    background: rgb(158, 158, 7);
+    font-weight: bold;
+
+} */
